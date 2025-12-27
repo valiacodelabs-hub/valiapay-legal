@@ -60,17 +60,16 @@
 
         <div style="text-align: center; margin: 30px 0;">
             <p>Información legal y de privacidad de la aplicación ValiaPay</p>
-            <p>Última actualización: <span id="last-updated"></span></p>
         </div>
 
         <div class="footer">
-            <p>© 2024 ValiaPay. Todos los derechos reservados.</p>
-            <p>Para consultas: soporte@valiapay.com</p>
+            <p>© <span id="current-year"></span> ValiaPay. Todos los derechos reservados.</p>
+            <p>Para consultas: valia.codelabs@gmail.com</p>
         </div>
     </div>
 
     <script>
-        document.getElementById('last-updated').textContent = new Date().toLocaleDateString('es-ES');
+        document.getElementById('current-year').textContent = new Date().getFullYear();
     </script>
 </body>
 </html>

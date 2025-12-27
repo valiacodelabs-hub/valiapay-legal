@@ -10,7 +10,7 @@ Este repositorio contiene la información legal de la aplicación ValiaPay, incl
 
 ## Contacto
 
-Para consultas legales: soporte@valiapay.com
+Para consultas legales: valia.codelabs@gmail.com
 
 ## Última Actualización
 
